@@ -1,4 +1,3 @@
-import java.util.Scanner;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -27,20 +26,26 @@ public class Main {
 //        }
 
 
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.print("Enter your age: ");
+//        int age = sc.nextInt();
+//
+//        sc.nextLine();  // To consume leftover newline
+//
+//        System.out.print("Enter your full name: ");
+//        String name = sc.nextLine();
+//
+//        System.out.println("Hello " + name + ", you are " + age + " years old.");
+//
+//        sc.close();
 
-        System.out.print("Enter your age: ");
-        int age = sc.nextInt();
+        Car car = new Car();
+        car.speed = 10;
+        System.out.println(car.speed);
 
-        sc.nextLine();  // To consume leftover newline
-
-        System.out.print("Enter your full name: ");
-        String name = sc.nextLine();
-
-        System.out.println("Hello " + name + ", you are " + age + " years old.");
-
-        sc.close();
-
+        car.setDoors(4);
+        System.out.println(car.getDoors());
 
 
     }
