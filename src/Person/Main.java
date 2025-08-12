@@ -1,9 +1,13 @@
 package Person;
 
 public class Main {
-public static void main(String[]args){
-    System.out.println(" Student Info");
-    student student = new student();
-    student.showDetails();
-}
+    public static void main(String[]args){
+        person personJohn = new John();
+        personJohn.speak();
+        personJohn.eat();
+
+        person personPooja = new Pooja();
+        personPooja.speak();
+        personPooja.eat();
+    }
 }
